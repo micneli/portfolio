@@ -7,7 +7,7 @@
 
 body {
   position: relative;
-  background-color: #E88E6D;
+  background-color: #E83C2E;
   /* height: 100vh; */
   display: flex;
 }
@@ -15,7 +15,7 @@ body {
 aside {
   position: fixed;
   left: 0;
-  background-color: #D4775B;
+  background-color: #C83C2E;
   width: 10%;
   height: 100vh;
   display: flex;
@@ -36,24 +36,26 @@ nav {
   align-items: center;
 }
 
-.nav-hover a {
-  position: absolute;
-  top: 30%;
-  text-decoration: none;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 .nav-hover p {
   text-transform: uppercase;
 }
 
 .nav-hover:hover {
-  background-color: #E88E6D;
+  background-color: #E83C2E;
   width: 100%;
   cursor: pointer;
+}
+
+a.fill-div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
@@ -150,7 +152,7 @@ main {
   padding: 5px 5px 5px 5px;
   border: 1px solid white;
   margin: 5px;
-  background-color:#E88E6D;
+  background-color: #E83C2E;
   color: white;
 }
 
@@ -158,5 +160,5 @@ main {
   border: 1px solid white;
   margin: 5px;
   background-color: white;
-  color: #E88E6D;
+  color: #E83C2E;
 }
