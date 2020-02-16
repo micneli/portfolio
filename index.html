@@ -70,7 +70,35 @@
 
     <section class="about" id="contact">
       <h2>Contact</h2>
-      <p><span>Hello, I am Nebojsa</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui assumenda nihil veniam omnis sunt, reiciendis vel dolor minima repellendus, tempore blanditiis? Accusantium harum, facilis, eos fugiat, aperiam explicabo laborum voluptatibus est iste magnam veritatis consectetur maiores cum nisi? Quae a aliquam repudiandae quis, doloribus aliquid libero animi veniam illum et?</p>
+      <form method="post" action="contact.php" name="contactform" id="contactform" class="form">
+        <div class="field">
+                <p>Name<span class="req">*</span></p>
+                <input type="text" name="name" id="name" class="text-label" placeholder="Your name"/>
+        </div>
+        <div class="field">
+                <p>Email</p>
+                <input type="text" name="email" id="email" class="text-label" placeholder="Your email"/>
+        </div>
+        <div class="field">
+                <p>Subject</p>
+                <input type="text" name="subject" id="subject" class="text-label" placeholder="Your subject"/>
+        </div>
+        <div class="field">
+            <p>Message</p>
+            <textarea name="message" id="message" class="textarea-label" placeholder="Your message"></textarea>
+        </div>
+        
+        <div class="success-message">
+            <strong>Success!</strong> You successfully send an email for us.
+        </div>
+        
+        <div class="field">
+            <button type="button" id="send" class="btn btnBasic">Send</button>
+            <div class="loading-contact"><img src="images/loader.gif" alt="loader"/></div>
+        </div>
+
+        <div class="clear"></div>
+  </form>
     </section>
   </main>
 
