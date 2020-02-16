@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Maven+Pro&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <aside>
     <nav>
@@ -16,7 +18,7 @@
           <p>Home</p>
         </a>
       </div>
-      
+
       <div class="nav-hover">
         <a href="#about" class="fill-div"><i class="large material-icons">person</i>
           <p>About</p>
@@ -36,21 +38,32 @@
       </div>
     </nav>
   </aside>
-  
+
   <main>
     <section class="home" id="home">
       <h1>I am Nebojsa Mihaljevic</h1>
       <h3>web developer</h3>
     </section>
-  
+
     <section class="about" id="about">
       <h2>About me</h2>
-      <p><span>Hello, I am Nebojsa</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui assumenda nihil veniam omnis sunt, reiciendis vel dolor minima repellendus, tempore blanditiis? Accusantium harum, facilis, eos fugiat, aperiam explicabo laborum voluptatibus est iste magnam veritatis consectetur maiores cum nisi? Quae a aliquam repudiandae quis, doloribus aliquid libero animi veniam illum et?</p>
+      <p><span>Hello, I am Nebojsa</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui assumenda nihil
+        veniam omnis sunt, reiciendis vel dolor minima repellendus, tempore blanditiis? Accusantium harum, facilis, eos
+        fugiat, aperiam explicabo laborum voluptatibus est iste magnam veritatis consectetur maiores cum nisi? Quae a
+        aliquam repudiandae quis, doloribus aliquid libero animi veniam illum et?</p>
+        <ul class="portfolioList">
+          <li><a href="#">Reference 1</a></li>
+          <li><a href="#">Reference 2</a></li>
+          <li><a href="#">Reference 3</a></li>
+        </ul>
     </section>
 
     <section class="about" id="portfolio">
       <h2>Portfolio</h2>
-      <p><span>Hello, I am Nebojsa</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui assumenda nihil veniam omnis sunt, reiciendis vel dolor minima repellendus, tempore blanditiis? Accusantium harum, facilis, eos fugiat, aperiam explicabo laborum voluptatibus est iste magnam veritatis consectetur maiores cum nisi? Quae a aliquam repudiandae quis, doloribus aliquid libero animi veniam illum et?</p>
+      <p><span>Hello, I am Nebojsa</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui assumenda nihil
+        veniam omnis sunt, reiciendis vel dolor minima repellendus, tempore blanditiis? Accusantium harum, facilis, eos
+        fugiat, aperiam explicabo laborum voluptatibus est iste magnam veritatis consectetur maiores cum nisi? Quae a
+        aliquam repudiandae quis, doloribus aliquid libero animi veniam illum et?</p>
 
       <div id="tabs-container">
         <ul class="tabs-menu">
@@ -60,7 +73,14 @@
           <li><a href="#tab-4">PHP</a></li>
         </ul>
         <div class="tab">
-          <div id="tab-1" class="tab-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis autem eaque repellat ullam voluptate ipsum, facere minima! Assumenda hic consequatur aliquid cupiditate atque nesciunt iusto rerum. Tempora soluta sapiente eaque ex quis in corrupti odit, molestiae inventore assumenda quo officia fuga vero illum asperiores! Dicta culpa debitis cum omnis eos vel nostrum ex beatae itaque accusantium deleniti harum libero veritatis, dignissimos provident animi veniam sunt quos voluptatum iste a sit rerum. Earum ad, dolor voluptate eveniet perspiciatis odit quam voluptatibus, aut quis culpa at corporis nobis! At error dolorum illum autem fugiat consequuntur ipsa maxime aliquam pariatur culpa, laudantium eaque.</div>
+          <div id="tab-1" class="tab-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis autem eaque
+            repellat ullam voluptate ipsum, facere minima! Assumenda hic consequatur aliquid cupiditate atque nesciunt
+            iusto rerum. Tempora soluta sapiente eaque ex quis in corrupti odit, molestiae inventore assumenda quo
+            officia fuga vero illum asperiores! Dicta culpa debitis cum omnis eos vel nostrum ex beatae itaque
+            accusantium deleniti harum libero veritatis, dignissimos provident animi veniam sunt quos voluptatum iste a
+            sit rerum. Earum ad, dolor voluptate eveniet perspiciatis odit quam voluptatibus, aut quis culpa at corporis
+            nobis! At error dolorum illum autem fugiat consequuntur ipsa maxime aliquam pariatur culpa, laudantium
+            eaque.</div>
           <div id="tab-2" class="tab-content">tab 2 content</div>
           <div id="tab-3" class="tab-content">tab 3 content</div>
           <div id="tab-4" class="tab-content">tab 4 content</div>
@@ -72,42 +92,43 @@
       <h2>Contact</h2>
       <form method="post" action="contact.php" name="contactform" id="contactform" class="form">
         <div class="field">
-                <p>Name<span class="req">*</span></p>
-                <input type="text" name="name" id="name" class="text-label" placeholder="Your name"/>
+          <p>Name<span class="req">*</span></p>
+          <input type="text" name="name" id="name" class="text-label">
         </div>
         <div class="field">
-                <p>Email</p>
-                <input type="text" name="email" id="email" class="text-label" placeholder="Your email"/>
+          <p>Email</p>
+          <input type="text" name="email" id="email" class="text-label">
         </div>
         <div class="field">
-                <p>Subject</p>
-                <input type="text" name="subject" id="subject" class="text-label" placeholder="Your subject"/>
+          <p>Subject</p>
+          <input type="text" name="subject" id="subject" class="text-label">
         </div>
         <div class="field">
-            <p>Message</p>
-            <textarea name="message" id="message" class="textarea-label" placeholder="Your message"></textarea>
+          <p>Message</p>
+          <textarea name="message" id="message" class="textarea-label"></textarea>
         </div>
-        
+
         <div class="success-message">
-            <strong>Success!</strong> You successfully send an email for us.
+          <strong>Success!</strong> You successfully send an email for us.
         </div>
-        
+
         <div class="field">
-            <button type="button" id="send" class="btn btnBasic">Send</button>
-            <div class="loading-contact"><img src="images/loader.gif" alt="loader"/></div>
+          <button type="button" id="send" class="btnBasic">Send</button>
+          <div class="loading-contact"><img src="assets/img/loader.gif" alt="loader" /></div>
         </div>
 
         <div class="clear"></div>
-  </form>
+      </form>
     </section>
   </main>
 
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/2.0.0/jquery.localScroll.min.js"></script>
   <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
+
 </html>

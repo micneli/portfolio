@@ -24,7 +24,6 @@ aside {
 
 nav {
   width: 100%;
-  
 }
 
 .nav-hover {
@@ -62,7 +61,7 @@ main {
   position: absolute;
   right: 0;
   width: 90%;
-  height: 300vh;
+  height: 270vh;
 }
 
 .home {
@@ -99,7 +98,6 @@ main {
   margin: 0 auto;
   width: 70%;
   text-align: justify;
-  
 }
 
 .about h2 {
@@ -161,4 +159,49 @@ main {
   margin: 5px;
   background-color: white;
   color: #E83C2E;
+}
+
+form input, textarea {
+  width: 100%;
+  height: 3em;
+  background-color: #E83C2E;
+  border: 1px solid white;
+  color: white;
+}
+
+form textarea {
+  height: 10em;
+}
+
+.success-message, .loading-contact {
+  display: none;
+}
+
+.btnBasic {
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 10px 10px;
+  border: 1px solid white;
+  margin: 5px;
+  background-color: #E83C2E;
+  color: white;
+}
+
+.btnBasic:hover {
+  background-color: white;
+  color: #E83C2E;
+  cursor: pointer;
+}
+
+.portfolioList {
+  margin-left: 30px;
+}
+
+.portfolioList a {
+  text-decoration: none;
+  color: white;
+}
+
+.portfolioList li:before {
+  color: white;
 }
