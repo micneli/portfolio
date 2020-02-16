@@ -155,9 +155,6 @@ main {
 }
 
 .tabs-menu li a:hover {
-  /* text-decoration: none;
-  text-transform: uppercase; */
-  /* padding: 5px 5px 5px 5px; */
   border: 1px solid white;
   margin: 5px;
   background-color: white;
