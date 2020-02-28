@@ -103,7 +103,6 @@ main {
 .about h2 {
   text-transform: uppercase;
   color: white;
-  text-decoration: line-through;
   letter-spacing: 0.2em;
   font-weight: 100;
   margin-bottom: 0.5em;
@@ -204,4 +203,32 @@ form textarea {
 
 .portfolioList li:before {
   color: white;
+}
+
+
+h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 0px;
+  position: relative;
+}
+h2:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+h2:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
