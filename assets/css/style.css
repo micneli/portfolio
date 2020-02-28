@@ -61,7 +61,7 @@ main {
   position: absolute;
   right: 0;
   width: 90%;
-  height: 270vh;
+  height: 280vh;
 }
 
 .home {
@@ -246,14 +246,14 @@ form textarea {
   margin-left: 30px;
 }
 
-.portfolioList a {
+/* .portfolioList a {
   text-decoration: none;
   color: white;
-}
+} */
 
-.portfolioList li:before {
+/* .portfolioList li:before {
   color: white;
-}
+} */
 
 
 h2 {
@@ -279,6 +279,37 @@ h2:after {
   width: 0;
 }
 h2:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.portfolioList ul {
+  list-style: none;
+}
+
+.portfolioList a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.portfolioList a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.portfolioList a:hover:after { 
   width: 100%; 
   left: 0; 
 }
