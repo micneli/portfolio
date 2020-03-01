@@ -143,6 +143,32 @@ main {
   display:block;
 }
 
+.portfolio_row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolio_row img {
+  border: 1px solid white;
+}
+
+.portfolio_row h3 {
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.one_half {
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.one_half p {
+  width: 70%;
+}
+
 /* .tabs-menu {
   list-style: none;
   display: flex;
