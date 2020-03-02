@@ -343,3 +343,7 @@ h2:hover:after {
   width: 100%; 
   left: 0; 
 }
+
+#contactForm input, textarea {
+  padding: 10px;
+}
