@@ -272,20 +272,6 @@ form textarea {
   cursor: pointer;
 }
 
-.portfolioList {
-  margin-left: 30px;
-}
-
-/* .portfolioList a {
-  text-decoration: none;
-  color: white;
-} */
-
-/* .portfolioList li:before {
-  color: white;
-} */
-
-
 h2 {
   color: #fff;
   text-transform: uppercase;
@@ -313,7 +299,7 @@ h2:hover:after {
   left: 0; 
 }
 
-.portfolioList ul {
+.portfolioList {
   list-style: none;
 }
 
