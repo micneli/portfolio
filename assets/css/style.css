@@ -381,3 +381,11 @@ h2:hover:after {
   width: 100%; 
   left: 0; 
 }
+
+.one_half img {
+  transition: box-shadow .3s;
+}
+
+.one_half img:hover {
+  box-shadow: 0 0 11px rgba(0,0,0,.5);
+}
