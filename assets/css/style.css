@@ -99,6 +99,10 @@ main {
   transform: translate(-50%, -50%);
 }
 
+#regular {
+  text-transform: capitalize;
+}
+
 .about {
   padding: 100px 0 0 0;
   margin: 0 auto;
