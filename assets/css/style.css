@@ -61,7 +61,7 @@ main {
   position: absolute;
   right: 0;
   width: 90%;
-  height: 295vh;
+  /* height: 295vh; */
 }
 
 .home {
@@ -393,6 +393,10 @@ h2:hover:after {
   box-shadow: 0 0 11px rgba(0,0,0,.5);
 }
 
+#contact {
+  margin-bottom: 180px;
+}
+
 /* On screens that are 1200px or less (large size) */
 @media screen and (max-width: 1200px) {
   .portfolio_row {
@@ -405,42 +409,50 @@ h2:hover:after {
 /* On screens that are 992px or less (medium size) */
 @media screen and (max-width: 1012px) {
   aside {
-    font-size: 0.8em;
+    width: 100px;
+    z-index: 10;
   }
   .home h3 {
   top: 65%;
   }
 }
 
+/* On screens that are 768px or less (small size) */
 @media screen and (max-width: 768px) {
-  aside {
-    font-size: 0.6em;
+  .tabs-menu {
+    display: flex;
+    flex-direction: column;
   }
   .tabs-menu a {
     padding: 15px 10px;
   }
-  .about {
-  width: 80%;
-  }
 }
 
+/* On screens that are 576px or less (extra small size) */
 @media screen and (max-width: 576px) {
-  aside {
-    font-size: 0.55em;
+  .about {
+    width: 70%;
+    margin-right: 20px;
+  }
+  .home h1 {
+    width: 70%;
+    left: 60%;
+    top: 40%;
+    font-size: 1.5em;
+    text-align: center;
   }
   .home h3 {
-    top: 70%;
+    top: 60%;
+    left: 60%;
+    text-align: center;
   }
   .tabs-menu a {
     padding: 15px 5px;
   }
-  .about {
-  width: 80%;
-  }
   .portfolio_row img {
-    width: 300px;
+    width: 200px;
   }
-  main h3 {
+  .home h3 {
   text-align: center;
   }
 }
