@@ -61,7 +61,7 @@ main {
   position: absolute;
   right: 0;
   width: 90%;
-  height: 280vh;
+  height: 295vh;
 }
 
 .home {
@@ -338,6 +338,7 @@ h2:hover:after {
   padding: 10px;
 }
 
+/* underlining effect on hover over href links */
 .menu_links ul {
   margin: 150px auto 0; 
   padding: 0; 
@@ -382,6 +383,8 @@ h2:hover:after {
   left: 0; 
 }
 
+/* end of hover over effect on links */
+
 .one_half img {
   transition: box-shadow .3s;
 }
@@ -389,3 +392,56 @@ h2:hover:after {
 .one_half img:hover {
   box-shadow: 0 0 11px rgba(0,0,0,.5);
 }
+
+/* On screens that are 1200px or less (large size) */
+@media screen and (max-width: 1200px) {
+  .portfolio_row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+}
+
+/* On screens that are 992px or less (medium size) */
+@media screen and (max-width: 1012px) {
+  aside {
+    font-size: 0.8em;
+  }
+  .home h3 {
+  top: 65%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  aside {
+    font-size: 0.6em;
+  }
+  .tabs-menu a {
+    padding: 15px 10px;
+  }
+  .about {
+  width: 80%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  aside {
+    font-size: 0.55em;
+  }
+  .home h3 {
+    top: 70%;
+  }
+  .tabs-menu a {
+    padding: 15px 5px;
+  }
+  .about {
+  width: 80%;
+  }
+  .portfolio_row img {
+    width: 300px;
+  }
+  main h3 {
+  text-align: center;
+  }
+}
+
