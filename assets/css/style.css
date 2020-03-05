@@ -397,6 +397,10 @@ h2:hover:after {
   margin-bottom: 180px;
 }
 
+#distance {
+  margin-bottom: 1.5em;
+}
+
 /* On screens that are 1200px or less (large size) */
 @media screen and (max-width: 1200px) {
   .portfolio_row {
