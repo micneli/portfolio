@@ -5,17 +5,23 @@
   font-family: 'Maven Pro', sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   position: relative;
-  background-color: #E83C2E;
-  /* height: 100vh; */
+  //background-color: #E83C2E;
+  background-color: #CB2819;
+  min-height: 100%;
   display: flex;
 }
 
 aside {
   position: fixed;
   left: 0;
-  background-color: #B43C2E;
+  //background-color: #B43C2E;
+  background-color: #A82819;
   width: 10%;
   height: 100vh;
   display: flex;
@@ -40,7 +46,7 @@ nav {
 }
 
 .nav-hover:hover {
-  background-color: #E83C2E;
+  background-color: #CB2819;
   width: 100%;
   cursor: pointer;
 }
@@ -61,7 +67,7 @@ main {
   position: absolute;
   right: 0;
   width: 90%;
-  /* height: 295vh; */
+  //height: 295vh;
 }
 
 .home {
@@ -70,6 +76,7 @@ main {
   height: 50vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/stepping_stones.jpg');
   background-size: cover;
+  margin-bottom: 50px;
 }
 
 .home h1 {
@@ -97,14 +104,40 @@ main {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.home .quick_contact {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
 #regular {
   text-transform: capitalize;
 }
 
+.quick_contact {
+  padding: 50px 0 0 0;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.quick_contact #img_margin {
+  margin-right: 10px;
+}
+
 .about {
-  padding: 100px 0 0 0;
+  padding: 50px 0 50px 0;
   margin: 0 auto;
   width: 70%;
   text-align: justify;
@@ -150,10 +183,6 @@ main {
 .portfolio_row {
   display: flex;
   justify-content: space-around;
-}
-
-.portfolio_row img {
-  border: 1px solid white;
 }
 
 .portfolio_row h3 {
@@ -247,17 +276,32 @@ hr {
 form input, textarea {
   width: 100%;
   height: 3em;
-  background-color: #E83C2E;
+  background-color: #CB2819;
   border: 1px solid white;
   color: white;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  //box-shadow: 0 0 5px rgba(255, 255, 255, .6) !important;
+  //padding: 3px 0px 3px 3px;
+  //margin: 5px 1px 3px 0px;
+  //border: 1px solid rgba(255, 255, 255, .6) !important;
 }
 
 form textarea {
   height: 10em;
 }
 
-.success-message, .loading-contact {
-  display: none;
+#contact .field {
+  margin-top: 20px;
+}
+
+#display_error {
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .btnBasic {
@@ -265,8 +309,7 @@ form textarea {
   font-size: 1em;
   padding: 10px 10px;
   border: 1px solid white;
-  margin: 5px;
-  background-color: #E83C2E;
+  background-color: #CB2819;
   color: white;
 }
 
@@ -284,24 +327,24 @@ h2 {
   
   display: inline-block;
   padding: 15px 0px;
-  position: relative;
+//position: relative;
 }
-h2:after {    
-  background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #fff;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-h2:hover:after { 
-  width: 100%; 
-  left: 0; 
-}
+//h2:after {    
+//  background: none repeat scroll 0 0 transparent;
+//  bottom: 0;
+//  content: "";
+//  display: block;
+//  height: 2px;
+//  left: 50%;
+//  position: absolute;
+//  background: #fff;
+//  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+//  width: 0;
+//}
+//h2:hover:after { 
+//  width: 100%; 
+//  left: 0; 
+//}
 
 .portfolioList {
   list-style: none;
@@ -312,7 +355,7 @@ h2:hover:after {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
-  
+  font-style: italic;
   display: inline-block;
   padding: 15px 20px;
   position: relative;
@@ -338,6 +381,19 @@ h2:hover:after {
   padding: 10px;
 }
 
+/* removing-input-background-colour-for-chrome-autocomplete */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px #CB2819 inset !important;
+}
+
+/*Change text in autofill textbox*/
+input:-webkit-autofill {
+    -webkit-text-fill-color: white !important;
+}
+
 /* underlining effect on hover over href links */
 .menu_links ul {
   margin: 150px auto 0; 
@@ -359,7 +415,7 @@ h2:hover:after {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.15em;
-  
+  font-style: italic;
   display: inline-block;
   padding: 15px 20px;
   position: relative;
@@ -385,20 +441,30 @@ h2:hover:after {
 
 /* end of hover over effect on links */
 
-.one_half img {
+#projets:first-of-type {
+  border: 1px solid white;
   transition: box-shadow .3s;
 }
 
-.one_half img:hover {
-  box-shadow: 0 0 11px rgba(0,0,0,.5);
+#projets:first-of-type:hover {
+  box-shadow: 0 0 15px rgba(255,255,255,.6);
 }
 
 #contact {
-  margin-bottom: 180px;
+  margin-bottom: 90px;
 }
 
 #distance {
   margin-bottom: 1.5em;
+}
+
+footer {
+  width: 100%;
+  right: 0;
+  padding-bottom: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 /* On screens that are 1200px or less (large size) */
@@ -419,10 +485,6 @@ h2:hover:after {
   .home h3 {
   top: 65%;
   }
-}
-
-/* On screens that are 768px or less (small size) */
-@media screen and (max-width: 768px) {
   .tabs-menu {
     display: flex;
     flex-direction: column;
@@ -432,11 +494,16 @@ h2:hover:after {
   }
 }
 
+/* On screens that are 768px or less (small size) 
+@media screen and (max-width: 768px) {
+  
+} */
+
 /* On screens that are 576px or less (extra small size) */
 @media screen and (max-width: 576px) {
   .about {
-    width: 70%;
-    margin-right: 20px;
+    width: 75%;
+    margin-right: 25px;
   }
   .home h1 {
     width: 70%;
@@ -454,10 +521,9 @@ h2:hover:after {
     padding: 15px 5px;
   }
   .portfolio_row img {
-    width: 200px;
+    width: 280px;
   }
   .home h3 {
-  text-align: center;
+    text-align: center;
   }
 }
-
