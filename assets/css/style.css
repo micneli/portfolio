@@ -11,7 +11,7 @@ html {
 
 body {
   position: relative;
-  //background-color: #E83C2E;
+  /*background-color: #E83C2E; */
   background-color: #CB2819;
   min-height: 100%;
   display: flex;
@@ -20,7 +20,7 @@ body {
 aside {
   position: fixed;
   left: 0;
-  //background-color: #B43C2E;
+  /* background-color: #B43C2E; */
   background-color: #A82819;
   width: 10%;
   height: 100vh;
@@ -67,7 +67,7 @@ main {
   position: absolute;
   right: 0;
   width: 90%;
-  //height: 295vh;
+  /* height: 295vh; */
 }
 
 .home {
@@ -283,10 +283,10 @@ form input, textarea {
 
 input:focus, textarea:focus {
   outline: none;
-  //box-shadow: 0 0 5px rgba(255, 255, 255, .6) !important;
-  //padding: 3px 0px 3px 3px;
-  //margin: 5px 1px 3px 0px;
-  //border: 1px solid rgba(255, 255, 255, .6) !important;
+  /* box-shadow: 0 0 5px rgba(255, 255, 255, .6) !important;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(255, 255, 255, .6) !important; */
 }
 
 form textarea {
@@ -327,24 +327,24 @@ h2 {
   
   display: inline-block;
   padding: 15px 0px;
-//position: relative;
+/* position: relative; */
 }
-//h2:after {    
-//  background: none repeat scroll 0 0 transparent;
-//  bottom: 0;
-//  content: "";
-//  display: block;
-//  height: 2px;
-//  left: 50%;
-//  position: absolute;
-//  background: #fff;
-//  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-//  width: 0;
-//}
-//h2:hover:after { 
-//  width: 100%; 
-//  left: 0; 
-//}
+/* h2:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+h2:hover:after { 
+  width: 100%; 
+  left: 0; 
+} */
 
 .portfolioList {
   list-style: none;
