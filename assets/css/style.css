@@ -269,8 +269,8 @@ hr {
 }
 
 .tabs-menu a:hover:after { 
-  width: 100%; 
-  left: 0; 
+  width: 75%; 
+  left: 11%; 
 }
 
 form input, textarea {
@@ -435,8 +435,8 @@ input:-webkit-autofill {
 }
 
 .menu_links a:hover:after { 
-  width: 100%; 
-  left: 0; 
+  width: 75%; 
+  left: 11%; 
 }
 
 /* end of hover over effect on links */
