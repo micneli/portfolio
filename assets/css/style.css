@@ -126,15 +126,47 @@ main {
 }
 
 .quick_contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 50px 0 0 0;
-  margin: 0 auto;
   width: 100%;
-  text-align: center;
+  height: 100%;
+  /* margin: 0 auto;
+  text-align: center; */
 }
 
-.quick_contact #img_margin {
-  margin-right: 10px;
+.quick_contact .c2 {
+  padding: 10px;
 }
+
+.hover-image, .c2:hover .normal-image {
+  display: none;
+}
+
+.c2:hover .hover-image {
+  display: inline;
+}
+
+/* .c2 img {
+  transition: all linear 0.7s;
+  -webkit-transition: all linear 0.7s;
+  -moz-transition: all linear 0.7s;
+  -ms-transition: all linear 0.7s;
+  -o-transition: all linear 0.7s;
+}
+
+.c2 img.hover-image {
+  opacity: 0;
+}
+
+.c2:hover img {
+  opacity: 0;
+}
+
+.c2:hover img.hover-image {
+  opacity: 1;
+} */
 
 .about {
   padding: 50px 0 50px 0;

@@ -47,9 +47,19 @@
       <h1>Bonjour, je suis <span id="regular">Nebojsa</span> Mihaljevic</h1>
       <h3>web développeur</h3>
       <div class="quick_contact">
-        <a href="mailto:monte.nemi@gmail.com"><img id="img_margin" src="assets/img/icons_white/email-32.png"></a>
-        <a href="https://fr.linkedin.com/in/electronic-engineer-translator/fr"><img id="img_margin" src="assets/img/icons_white/linkedin-5-32.png"></a>
-        <a href="https://github.com/micneli"><img src="assets/img/icons_white/github-10-32.png"></a>
+        <div class="c2">
+          <a href="mailto:monte.nemi@gmail.com"><img id="img_margin" src="assets/img/icons_white/email-32.png" class="normal-image"></a>
+          <a href="mailto:monte.nemi@gmail.com"><img id="img_margin" src="assets/img/icons_white/email-32-colored.png" class="hover-image"></a>
+        </div>
+        <div class="c2">
+          <a href="https://fr.linkedin.com/in/electronic-engineer-translator/fr"><img id="img_margin" src="assets/img/icons_white/linkedin-5-32.png" class="normal-image"></a>
+          <a href="https://fr.linkedin.com/in/electronic-engineer-translator/fr"><img id="img_margin" src="assets/img/icons_white/linkedin-5-32-colored.png" class="hover-image"></a>
+        </div>
+        <div class="c2">
+          <a href="https://github.com/micneli"><img src="assets/img/icons_white/github-10-32.png" class="normal-image"></a>
+          <a href="https://github.com/micneli"><img src="assets/img/icons_white/github-10-32-colored.png" class="hover-image"></a>
+        </div>
+          
       </div>
     </section>
 
