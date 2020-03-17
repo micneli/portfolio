@@ -59,7 +59,6 @@
           <a href="https://github.com/micneli"><img src="assets/img/icons_white/github-10-32.png" class="normal-image"></a>
           <a href="https://github.com/micneli"><img src="assets/img/icons_white/github-10-32-colored.png" class="hover-image"></a>
         </div>
-          
       </div>
     </section>
 
@@ -71,16 +70,18 @@
       <p>Pendant cette formation, j'ai réalisé de nombreux projets en HTML, CSS (Bootstrap) et JavaScript. En PHP, j'ai travaillé avec une architecture MVC, en POO et utilisé du SQL.</p>
       <p>En 2000, j'ai obtenu un bac+4 en électronique, à la Faculté en ingénierie électronique du Monténégro. J'ai travaillé dans le secteur des télécommunications et dans le secteur du numérique comme analyste de données en utilisant le SQL sur Oracle Database avec Oracle Reports Builder et Oracle Forms Builder.</p>
       <p>En 2002, j'ai commencé à travailler comme traducteur en anglais et depuis 2008 je suis specialisé en traductions techniques dans les domaines IT, électronique, électrotechnique, mécanique et télécommunication.</p>
-      <p id="distance">Comme webmaster j'ai créé plusieurs sites web sur Joomla CMS. C'est là où ma passion pour web a commencé, et elle continue jusqu'a present. Passionné de nouvelles technologies, je m’auto-forme continuellement et je suis en veille constante. Cela me permet de faire le progress constant dans le métier.</p>
+      <p>En 2009, comme webmaster, j'ai commencé à créer des sites web sur Joomla CMS. C'est là que ma passion pour le web a commencé. Passionné de nouvelles technologies, je m’autoforme continuellement et je suis en veille constante.</p>
+      <p>Pour valider mon titre professionnel, je recherche un stage en développement web, pour 2 mois à compter du 5 mai.</p>
+      <p id="distance">Titre: développement web-web mobile, niveau BAC+2.</p>
         <ul class="portfolioList">
-          <li><a href="https://www.proz.com/feedback-card/1419781">Traduction: quelques-unes de mes références</a></li>
+          <li><a href="https://www.proz.com/feedback-card/1419781">Traduction: quelques références</a></li>
           <li><a href="http://www.southslavictranslations.com">Mon site web pour traduction</a></li>
         </ul>
     </section>
 
     <section class="about" id="portfolio">
       <h2>Portfolio</h2>
-      <p>Ces projets ont été réalisés avant ou pendant ma formation à l'Access Code School. Pour les projets en HTML et CSS, j'ai utilisé Flex Box et Bootstrap. Les projets en JavaScript ont été faits en vanilla JS. J'ai affiché quelques projets en PHP, sans ou avec MVC POO, en utilisant MySQL.</p>
+      <p>Ces projets ont été réalisés avant ou pendant ma formation à l'Access Code School. Pour les projets en HTML et CSS, j'ai utilisé Flex Box et Bootstrap. Les projets en JavaScript ont été produits en vanilla JS. J'ai affiché quelques projets en PHP, sans ou avec MVC POO, en utilisant MySQL et moteur de templates Twig.</p>
 
       <div id="tabs-container">
         <ul class="tabs-menu">
@@ -97,7 +98,7 @@
                 <a href="https://nebojsam.promo-36.codeur.online/integrationHTMLCSS"><img id="projets" src="assets/img/mockup_blueasy.png" width="350px" alt="integration en html et css"></a>
                 <p>Objectif: L'integration de maquette en utilisant HTML et CSS (flexbox)</p>
                 <ul class="menu_links">
-                  <li><a href="https://github.com/micneli/integrationHTMLCSS">Github</a></li>
+                  <li><a href="https://github.com/micneli/BluEasy">Github</a></li>
                 </ul>
               </div>
               <div class="one_half">
