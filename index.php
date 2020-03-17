@@ -94,17 +94,17 @@
           <div id="tab-1" class="tab-content">
           <div class="portfolio_row">
               <div class="one_half">
-                <h3>Projet d'integration en HTML&CSS</h3>
+                <h3>Projet d'intégration en HTML&CSS</h3>
                 <a href="https://nebojsam.promo-36.codeur.online/integrationHTMLCSS"><img id="projets" src="assets/img/mockup_blueasy.png" width="350px" alt="integration en html et css"></a>
-                <p>Objectif: L'integration de maquette en utilisant HTML et CSS (flexbox)</p>
+                <p>Objectif: L'intégration de maquette en utilisant HTML et CSS (Flex Box)</p>
                 <ul class="menu_links">
                   <li><a href="https://github.com/micneli/BluEasy">Github</a></li>
                 </ul>
               </div>
               <div class="one_half">
-                <h3>Projet d'integration en Bootstrap</h3>
+                <h3>Projet d'intégration en Bootstrap</h3>
                 <a href="https://nebojsam.promo-36.codeur.online/integrationBootstrap"><img id="projets" src="assets/img/integration_bootstrap.png" width="350px" alt="projet d'integration en bootstrap"></a>
-                <p>Objectif: L'integration en utilisant HTML, CSS et le framework Bootstrap</p>
+                <p>Objectif: L'intégration en utilisant HTML, CSS et le framework Bootstrap</p>
                 <ul class="menu_links">
                   <li><a href="https://github.com/micneli/IntegrationBootstrap">Github</a></li>
                 </ul>
@@ -186,7 +186,7 @@
               <div class="one_half">
                 <h3>Projet File Transfer</h3>
                 <a href="https://nebojsam.promo-36.codeur.online/mvc_sanspoo"><img id="projets" src="assets/img/portfolio_php_mvc_sans_poo.png" width="350px" alt="file transfer en php mvc sans poo"></a>
-                <p>Ce projet a été effectué en utilisant PHP avec de l'architecture MVC sans la programmation object orienté</p>
+                <p>Ce projet a été effectué en utilisant PHP avec de l'architecture MVC sans la programmation object orientée</p>
                 <ul class="menu_links">
                   <li><a href="https://github.com/micneli/PHP_MVC_sans_POO">Github</a></li>
                 </ul>

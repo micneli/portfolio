@@ -5,6 +5,9 @@
   font-family: 'Maven Pro', sans-serif;
 }
 
+::-moz-selection { background: #B43C2E; }
+::selection { background: #B43C2E; }
+
 html {
   height: 100%;
 }
