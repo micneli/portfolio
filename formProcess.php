@@ -2,15 +2,15 @@
 
 if( !empty($_POST['name']) && !empty($_POST['email']) && !empty($_POST['subject']) && !empty($_POST['message']) ) {
   $name = $_POST['name'];
-	$email = $_POST['email'];
-	$subject = $_POST['subject'];
+  $email = $_POST['email'];
+  $subject = $_POST['subject'];
   $message = nl2br($_POST['message']);
   
-	$to = "monte.nemi@gmail.com";	
+  $to = "monte.nemi@gmail.com";	
   $from = $email;
   
   $headers = "From: $from\n";
-	$headers .= "MIME-Version: 1.0\n";
+  $headers .= "MIME-Version: 1.0\n";
   $headers .= "Content-type: text/html; charset=iso-8859-1\n";
   
   // $headers  = 'MIME-Version: 1.0' . "\r\n";
