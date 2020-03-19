@@ -52,12 +52,12 @@
           <a href="mailto:monte.nemi@gmail.com"><img id="img_margin" src="assets/img/icons_white/email-32-colored.png" class="hover-image"></a>
         </div>
         <div class="c2">
-          <a href="https://fr.linkedin.com/in/electronic-engineer-translator/fr"><img id="img_margin" src="assets/img/icons_white/linkedin-5-32.png" class="normal-image"></a>
-          <a href="https://fr.linkedin.com/in/electronic-engineer-translator/fr"><img id="img_margin" src="assets/img/icons_white/linkedin-5-32-colored.png" class="hover-image"></a>
+          <a href="https://fr.linkedin.com/in/electronic-engineer-translator/fr" target="_blank" rel="noopener noreferrer"><img id="img_margin" src="assets/img/icons_white/linkedin-5-32.png" class="normal-image"></a>
+          <a href="https://fr.linkedin.com/in/electronic-engineer-translator/fr" target="_blank" rel="noopener noreferrer"><img id="img_margin" src="assets/img/icons_white/linkedin-5-32-colored.png" class="hover-image"></a>
         </div>
         <div class="c2">
-          <a href="https://github.com/micneli"><img src="assets/img/icons_white/github-10-32.png" class="normal-image"></a>
-          <a href="https://github.com/micneli"><img src="assets/img/icons_white/github-10-32-colored.png" class="hover-image"></a>
+          <a href="https://github.com/micneli" target="_blank" rel="noopener noreferrer"><img src="assets/img/icons_white/github-10-32.png" class="normal-image"></a>
+          <a href="https://github.com/micneli" target="_blank" rel="noopener noreferrer"><img src="assets/img/icons_white/github-10-32-colored.png" class="hover-image"></a>
         </div>
       </div>
     </section>
@@ -95,18 +95,18 @@
           <div class="portfolio_row">
               <div class="one_half">
                 <h3>Projet d'intégration en HTML&CSS</h3>
-                <a href="https://nebojsam.promo-36.codeur.online/integrationHTMLCSS"><img id="projets" src="assets/img/mockup_blueasy.png" width="350px" alt="integration en html et css"></a>
+                <a href="https://nebojsam.promo-36.codeur.online/integrationHTMLCSS" target="_blank" rel="noopener noreferrer"><img id="projets" src="assets/img/mockup_blueasy.png" width="350px" alt="integration en html et css"></a>
                 <p>Objectif: L'intégration de maquette en utilisant HTML et CSS (Flex Box)</p>
                 <ul class="menu_links">
-                  <li><a href="https://github.com/micneli/BluEasy">Github</a></li>
+                  <li><a href="https://github.com/micneli/BluEasy" target="_blank" rel="noopener noreferrer">Github</a></li>
                 </ul>
               </div>
               <div class="one_half">
                 <h3>Projet d'intégration en Bootstrap</h3>
-                <a href="https://nebojsam.promo-36.codeur.online/integrationBootstrap"><img id="projets" src="assets/img/integration_bootstrap.png" width="350px" alt="projet d'integration en bootstrap"></a>
+                <a href="https://nebojsam.promo-36.codeur.online/integrationBootstrap" target="_blank" rel="noopener noreferrer"><img id="projets" src="assets/img/integration_bootstrap.png" width="350px" alt="projet d'integration en bootstrap"></a>
                 <p>Objectif: L'intégration en utilisant HTML, CSS et le framework Bootstrap</p>
                 <ul class="menu_links">
-                  <li><a href="https://github.com/micneli/IntegrationBootstrap">Github</a></li>
+                  <li><a href="https://github.com/micneli/IntegrationBootstrap" target="_blank" rel="noopener noreferrer">Github</a></li>
                 </ul>
               </div>
             </div>
@@ -114,10 +114,10 @@
             <div class="portfolio_row">
               <div class="one_half">
                 <h3>Projet de mon site web pour traduction</h3>
-                <a href="http://southslavictranslations.com"><img id="projets" src="assets/img/southslavictranslations.png" width="350px" alt="mon site web pour traduction"></a>
+                <a href="http://southslavictranslations.com" target="_blank" rel="noopener noreferrer"><img id="projets" src="assets/img/southslavictranslations.png" width="350px" alt="mon site web pour traduction"></a>
                 <p>Ce projet a été effectué en utilisant le CMS Joomla</p>
                 <ul class="menu_links">
-                  <li><a href="http://southslavictranslations.com">Lien</a></li>
+                  <li><a href="http://southslavictranslations.com" target="_blank" rel="noopener noreferrer">Lien</a></li>
                 </ul>
               </div>
             </div>
@@ -126,18 +126,18 @@
             <div class="portfolio_row">
               <div class="one_half">
                 <h3>Projet Cakeman JS</h3>
-                <a href="https://nebojsam.promo-36.codeur.online/cakeman_js/"><img id="projets" src="assets/img/cakeman_js.png" width="350px" alt="vanilla js projet de jeux"></a>
+                <a href="https://nebojsam.promo-36.codeur.online/cakeman_js/" target="_blank" rel="noopener noreferrer"><img id="projets" src="assets/img/cakeman_js.png" width="350px" alt="vanilla js projet de jeux"></a>
                 <p>Objectif: creer un jeux de faire exploser le gateau sur les adversaires</p>
                 <ul class="menu_links">
-                  <li><a href="https://github.com/micneli/cakeman">Github</a></li>
+                  <li><a href="https://github.com/micneli/cakeman" target="_blank" rel="noopener noreferrer">Github</a></li>
                 </ul>
               </div>
               <div class="one_half">
                 <h3>Projet Color Game JS</h3>
-                <a href="https://nebojsam.promo-36.codeur.online/colorgame/colorGame.html"><img id="projets" src="assets/img/colorgame.png" width="350px" alt="color game javascript projet"></a>
+                <a href="https://nebojsam.promo-36.codeur.online/colorgame/colorGame.html" target="_blank" rel="noopener noreferrer"><img id="projets" src="assets/img/colorgame.png" width="350px" alt="color game javascript projet"></a>
                 <p>Objectif: creer un jeux de diviner des couleurs</p>
                 <ul class="menu_links">
-                  <li><a href="#tab-2">Github</a></li>
+                  <li><a href="#tab-2" target="_blank" rel="noopener noreferrer">Github</a></li>
                 </ul>
               </div>
             </div>
@@ -145,18 +145,18 @@
             <div class="portfolio_row">
               <div class="one_half">
                 <h3>Projet Scorekeeper JS</h3>
-                <a href="https://nebojsam.promo-36.codeur.online/scorekeeper/"><img id="projets" src="assets/img/scorekeeper.png" width="350px" alt="scorekeeper javascript projet"></a>
+                <a href="https://nebojsam.promo-36.codeur.online/scorekeeper/" target="_blank" rel="noopener noreferrer"><img id="projets" src="assets/img/scorekeeper.png" width="350px" alt="scorekeeper javascript projet"></a>
                 <p>Objectif: creer un jeux de tenue des scores. Ce projet a été effectué en utilisant vanilla JS.</p>
                 <ul class="menu_links">
-                  <li><a href="#tab-2">Github</a></li>
+                  <li><a href="#tab-2" target="_blank" rel="noopener noreferrer">Github</a></li>
                 </ul>
               </div>
               <div class="one_half">
                 <h3>Projet d'inauguration de ACS</h3>
-                <a href="https://nebojsam.promo-36.codeur.online/acs_inauguration"><img id="projets" src="assets/img/inauguration.png" width="350px" alt="inauguration projet"></a>
+                <a href="https://nebojsam.promo-36.codeur.online/acs_inauguration" target="_blank" rel="noopener noreferrer"><img id="projets" src="assets/img/inauguration.png" width="350px" alt="inauguration projet"></a>
                 <p>Objectif: creer la page pour l'inauguration d'ecole en utilisant Bootstrap and JavaScript</p>
                 <ul class="menu_links">
-                  <li><a href="https://github.com/micneli/acs_inauguration_project">Github</a></li>
+                  <li><a href="https://github.com/micneli/acs_inauguration_project" target="_blank" rel="noopener noreferrer">Github</a></li>
                 </ul>
               </div>
             </div>
@@ -177,18 +177,18 @@
             <div class="portfolio_row">
               <div class="one_half">
                 <h3>Projet Movie Database</h3>
-                <a href="https://nebojsam.promo-36.codeur.online/PHP_OOP_movieDB"><img id="projets" src="assets/img/php_mvc_poo.png" width="350px" alt="movie database en php mvc poo"></a>
+                <a href="https://nebojsam.promo-36.codeur.online/PHP_OOP_movieDB" target="_blank" rel="noopener noreferrer"><img id="projets" src="assets/img/php_mvc_poo.png" width="350px" alt="movie database en php mvc poo"></a>
                 <p>Objectif: creer le base de films, acteurs et réalisateurs en utilisant PHP object orienté avec de l'architecture MVC</p>
                 <ul class="menu_links">
-                  <li><a href="https://github.com/micneli/movieDatabase">Github</a></li>
+                  <li><a href="https://github.com/micneli/movieDatabase" target="_blank" rel="noopener noreferrer">Github</a></li>
                 </ul>
               </div>
               <div class="one_half">
                 <h3>Projet File Transfer</h3>
-                <a href="https://nebojsam.promo-36.codeur.online/mvc_sanspoo"><img id="projets" src="assets/img/portfolio_php_mvc_sans_poo.png" width="350px" alt="file transfer en php mvc sans poo"></a>
+                <a href="https://nebojsam.promo-36.codeur.online/mvc_sanspoo" target="_blank" rel="noopener noreferrer"><img id="projets" src="assets/img/portfolio_php_mvc_sans_poo.png" width="350px" alt="file transfer en php mvc sans poo"></a>
                 <p>Ce projet a été effectué en utilisant PHP avec de l'architecture MVC sans la programmation object orientée</p>
                 <ul class="menu_links">
-                  <li><a href="https://github.com/micneli/PHP_MVC_sans_POO">Github</a></li>
+                  <li><a href="https://github.com/micneli/PHP_MVC_sans_POO" target="_blank" rel="noopener noreferrer">Github</a></li>
                 </ul>
               </div>
             </div>
@@ -196,18 +196,18 @@
             <div class="portfolio_row">
               <div class="one_half">
                 <h3>Tables de Multiplications</h3>
-                <a href="https://nebojsam.promo-36.codeur.online/PHP_table_multiplication"><img id="projets" src="assets/img/php_multiplications.png" width="350px" alt="php tables de multiplications"></a>
+                <a href="https://nebojsam.promo-36.codeur.online/PHP_table_multiplication" target="_blank" rel="noopener noreferrer"><img id="projets" src="assets/img/php_multiplications.png" width="350px" alt="php tables de multiplications"></a>
                 <p>Objectif: creation de tables de multiplications et verification de connaisance de multiplications en utilisant PHP et Bootstrap</p>
                 <ul class="menu_links">
-                  <li><a href="https://github.com/micneli/php_table_multiplication">Github</a></li>
+                  <li><a href="https://github.com/micneli/php_table_multiplication" target="_blank" rel="noopener noreferrer">Github</a></li>
                 </ul>
               </div>
               <div class="one_half">
                 <h3>Multiplications en AJAX et PHP</h3>
-                <a href="https://nebojsam.promo-36.codeur.online/PHP_AJAX_tables_multiplications/index.php"><img id="projets" src="assets/img/php_ajax.png" width="350px" alt="php ajax tables de multiplications"></a>
+                <a href="https://nebojsam.promo-36.codeur.online/PHP_AJAX_tables_multiplications/index.php" target="_blank" rel="noopener noreferrer"><img id="projets" src="assets/img/php_ajax.png" width="350px" alt="php ajax tables de multiplications"></a>
                 <p>Objectif: creer de tables de multiplications en utilisant PHP avec AJAX. J'ai utilisé aussi le framework Bootstrap</p>
                 <ul class="menu_links">
-                  <li><a href="https://github.com/micneli/php_ajax_tables_multiplications">Github</a></li>
+                  <li><a href="https://github.com/micneli/php_ajax_tables_multiplications" target="_blank" rel="noopener noreferrer">Github</a></li>
                 </ul>
               </div>
             </div>  
